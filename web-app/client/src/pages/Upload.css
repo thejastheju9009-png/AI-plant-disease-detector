@@ -1,0 +1,87 @@
+.upload-page {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.upload-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.upload-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.upload-area {
+  position: relative;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: block;
+  border: 2px dashed #667eea;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #f8f9fa;
+}
+
+.file-label:hover {
+  border-color: #764ba2;
+  background-color: #f0f0f0;
+}
+
+.upload-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.file-label p {
+  margin: 0.5rem 0;
+  color: #2c3e50;
+}
+
+.file-hint {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.preview {
+  text-align: center;
+}
+
+.preview img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.result {
+  margin-top: 2rem;
+}
+
+.result h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.result-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card p {
+  margin: 0.8rem 0;
+  color: #2c3e50;
+}
